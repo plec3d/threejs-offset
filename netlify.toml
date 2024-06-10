@@ -12,7 +12,7 @@
   # This sample publishes the directory located at the absolute 
   # path "root/project/build-output"
 
-  publish = "src/"
+  publish = "dist/"
 
   # Default build command.
   command = "npm install && npm run build"
@@ -27,7 +27,7 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-  publish = "src/"
+  publish = "dist/"
   
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
