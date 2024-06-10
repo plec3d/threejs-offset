@@ -64,7 +64,7 @@
 # Specific branch context: all deploys from
 # this specific branch will inherit these settings.
 [context.staging] # “staging” is a branch name
-  command = ""
+  command = "npm start"
   base = "."
   
 [functions]
