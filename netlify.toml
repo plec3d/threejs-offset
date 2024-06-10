@@ -27,17 +27,13 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-  publish = "./"
-  command = "npm install && npm run build"
-  port = 8080
-  environment = { NODE_VERSION = "14.15.3" }
-
+  publish = "src/"
+  
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
-  command = "npm start"
+  command = ""
   publish = "./"
-  port = 8080
 
 # Here is an example of how to define context-specific
 # environment variables. To avoid committing sensitive
