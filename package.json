@@ -18,7 +18,7 @@
     "url": "https://github.com/AngyDev/threejs-offset/issues"
   },
   "homepage": "https://github.com/AngyDev/threejs-offset#readme",
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "^7.18.10",
     "babel-loader": "^8.2.5",
@@ -29,9 +29,7 @@
     "mini-css-extract-plugin": "^2.6.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.0"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^4.10.0",
     "three": "^0.143.0"
   }
 }
