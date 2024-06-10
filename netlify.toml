@@ -28,7 +28,7 @@
 # values to keep them out of your source repository.
 [context.production]
   publish = "./"
-  command = ""
+  command = "npm install && npm run build"
   port = 8080
   environment = { NODE_VERSION = "14.15.3" }
 
