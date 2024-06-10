@@ -79,5 +79,5 @@
 # Dev should be set under [context.dev.environment] instead.
 [dev]
   command = "npm start"
-  port = 8080
+  targetPort = 8080
   publish = "."
